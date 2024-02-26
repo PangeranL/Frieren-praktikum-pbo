@@ -49,8 +49,4 @@ public class Garis {
         return Math.abs(this.getGradien() * g.getGradien()) == 1;
     }
 
-    @Override
-    public String toString() {
-        return "Garis: " + titikAwal + " - " + titikAkhir;
-    }
 }
