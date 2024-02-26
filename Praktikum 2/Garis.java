@@ -48,9 +48,4 @@ public class Garis {
         // Mengecek apakah dua garis tegak lurus
         return Math.abs(this.getGradien() * g.getGradien()) == 1;
     }
-
-    @Override
-    public String toString() {
-        return "Garis: " + titikAwal + " - " + titikAkhir;
-    }
 }
