@@ -43,9 +43,4 @@ class Titik {
         Titik t = new Titik(absis, -ordinat);
         return t;
     }
-
-    @Override
-    public String toString() {
-        return "(" + absis + ", " + ordinat + ")";
-    }
 }
